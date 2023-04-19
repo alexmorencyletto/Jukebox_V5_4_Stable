@@ -50,13 +50,13 @@ int file_index = 0;
 int songCounter = 0;
 
 // Replace with your network credentials
-const char *ssid = "7223";
-const char *password = "AvenueDeL'Epee";
+const char *ssid = "***";
+const char *password = "***";
 
 //Thingspeak API
-const char* writeAPIKey = "1X4HRDWS50GGGCNW";
-const char* readAPIKey = "WTLNU5HCBW2DOZKK";
-const long channel2 = 2085707;
+const char* writeAPIKey = "***";
+const char* readAPIKey = "***";
+const long channel2 = ***;
 
 const unsigned int nameFieldTS = 1;
 const unsigned int emailFieldTS = 2;
@@ -69,9 +69,6 @@ String email = "john@smith.com";
 
 // Set static IP
 IPAddress staticIP(192, 168, 1, 18);
-//IPAddress gateway(192, 168, 1, 1); // Replace this with your gateway IP Addess
-//IPAddress subnet(255, 255, 255, 0);  // Replace this with your Subnet Mask
-//IPAddress dns(192, 168, 1, 1);     // Replace this with your DNS
 
 // Set web server port number to 80
 WebServer server(80);
